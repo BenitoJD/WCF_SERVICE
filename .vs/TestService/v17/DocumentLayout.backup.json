@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Benito\\source\\repos\\TestService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|c:\\users\\benito\\source\\repos\\testservice\\testservice\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|solutionrelative:testservice\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|c:\\users\\benito\\source\\repos\\testservice\\testservice\\imyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|solutionrelative:testservice\\imyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|c:\\users\\benito\\source\\repos\\testservice\\testservice\\myservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|solutionrelative:testservice\\myservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|c:\\users\\benito\\source\\repos\\testservice\\testservice\\imyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|solutionrelative:testservice\\imyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|c:\\users\\benito\\source\\repos\\testservice\\testservice\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|solutionrelative:testservice\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\Benito\\source\\repos\\TestService\\TestService\\App.config",
               "RelativeDocumentMoniker": "TestService\\App.config",
@@ -49,20 +49,20 @@
               "RelativeDocumentMoniker": "TestService\\MyService.cs",
               "ToolTip": "C:\\Users\\Benito\\source\\repos\\TestService\\TestService\\MyService.cs",
               "RelativeToolTip": "TestService\\MyService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T08:56:26.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "IMyService.cs",
               "DocumentMoniker": "C:\\Users\\Benito\\source\\repos\\TestService\\TestService\\IMyService.cs",
               "RelativeDocumentMoniker": "TestService\\IMyService.cs",
               "ToolTip": "C:\\Users\\Benito\\source\\repos\\TestService\\TestService\\IMyService.cs",
               "RelativeToolTip": "TestService\\IMyService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T06:18:58.265Z",
               "EditorCaption": ""
