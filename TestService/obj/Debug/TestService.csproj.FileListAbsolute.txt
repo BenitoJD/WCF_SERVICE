@@ -1,0 +1,7 @@
+C:\Users\Benito\source\repos\TestService\TestService\bin\Debug\TestService.dll.config
+C:\Users\Benito\source\repos\TestService\TestService\bin\Debug\TestService.dll
+C:\Users\Benito\source\repos\TestService\TestService\bin\Debug\TestService.pdb
+C:\Users\Benito\source\repos\TestService\TestService\obj\Debug\TestService.csproj.AssemblyReference.cache
+C:\Users\Benito\source\repos\TestService\TestService\obj\Debug\TestService.csproj.CoreCompileInputs.cache
+C:\Users\Benito\source\repos\TestService\TestService\obj\Debug\TestService.dll
+C:\Users\Benito\source\repos\TestService\TestService\obj\Debug\TestService.pdb

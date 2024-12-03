@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Benito\\source\\repos\\TestService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|c:\\users\\benito\\source\\repos\\testservice\\testservice\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|solutionrelative:testservice\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|c:\\users\\benito\\source\\repos\\testservice\\testservice\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|solutionrelative:testservice\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|c:\\users\\benito\\source\\repos\\testservice\\testservice\\myservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|solutionrelative:testservice\\myservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|c:\\users\\benito\\source\\repos\\testservice\\testservice\\imyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95DFAA3-6952-449F-BBBF-E7DE4ADB20C3}|TestService\\TestService.csproj|solutionrelative:testservice\\imyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IService1.cs",
-              "DocumentMoniker": "C:\\Users\\Benito\\source\\repos\\TestService\\TestService\\IService1.cs",
-              "RelativeDocumentMoniker": "TestService\\IService1.cs",
-              "ToolTip": "C:\\Users\\Benito\\source\\repos\\TestService\\TestService\\IService1.cs",
-              "RelativeToolTip": "TestService\\IService1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Benito\\source\\repos\\TestService\\TestService\\App.config",
+              "RelativeDocumentMoniker": "TestService\\App.config",
+              "ToolTip": "C:\\Users\\Benito\\source\\repos\\TestService\\TestService\\App.config",
+              "RelativeToolTip": "TestService\\App.config",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-03T08:59:43.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyService.cs",
+              "DocumentMoniker": "C:\\Users\\Benito\\source\\repos\\TestService\\TestService\\MyService.cs",
+              "RelativeDocumentMoniker": "TestService\\MyService.cs",
+              "ToolTip": "C:\\Users\\Benito\\source\\repos\\TestService\\TestService\\MyService.cs",
+              "RelativeToolTip": "TestService\\MyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T06:08:20.082Z",
+              "WhenOpened": "2024-12-03T08:56:26.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMyService.cs",
+              "DocumentMoniker": "C:\\Users\\Benito\\source\\repos\\TestService\\TestService\\IMyService.cs",
+              "RelativeDocumentMoniker": "TestService\\IMyService.cs",
+              "ToolTip": "C:\\Users\\Benito\\source\\repos\\TestService\\TestService\\IMyService.cs",
+              "RelativeToolTip": "TestService\\IMyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T06:18:58.265Z",
               "EditorCaption": ""
             }
           ]
