@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.ServiceModel;
 using System.Text;
@@ -8,7 +9,28 @@ using System.Threading.Tasks;
 namespace TestService
 {
      class MyService : IMyService
-    {
+     {
+        public List<Country> GetAllCountry()
+        {
+            List<Country> list = new List<Country>();
+            string connectionString = "Server=localhost;Database=WCF;Integrated Security=True;";
+            SqlConnection con = new SqlConnection(connectionString);
+
+            SqlCommand cmd = new SqlCommand("select * from Country",con);
+            con.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read()) { 
+            Country c = new Country();
+                c.CountryId = int.Parse(reader[0].ToString());
+                c.CountryName = reader[1].ToString();
+                list.Add(c);
+            
+            }
+            reader.Close();
+            con.Close();
+            return list;
+        }
+
         public string GetData()
         {
             return "www.Benify.com";
@@ -32,9 +54,9 @@ namespace TestService
             return "Hello" + Name;    
         }
 
-        public string GetResult(int Sid, string SName, int M1, int M2, int M3)
+        public string GetResult(Student s)
         {
-            double Avg = (M1 + M2 + M3)/ 3.0;
+            double Avg = (s.M1 + s.M2 + s.M3)/ 3.0;
             if (Avg < 35)
                 return "Fail";
             else
@@ -45,6 +67,18 @@ namespace TestService
         {
             Array.Sort(ar);
             return ar;
+        }
+
+        public Student GetTopper(List<Student> students)
+        {
+            if (students == null || students.Count == 0)
+            {
+                throw new ArgumentException("The student list is empty or null.");
+            }
+
+            return students
+                .OrderByDescending(s => (s.M1 + s.M2 + s.M3) / 3.0) 
+                .First();
         }
     }
 }
